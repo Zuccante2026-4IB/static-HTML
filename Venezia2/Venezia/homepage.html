@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progetto GetUp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <p>Progetto GetUp</p>
+        <div class="nav-links">
+            <a href="homepage.html">HomePage</a>
+            <span>|</span>
+            <a href="credits.html">Chi siamo</a>
+            <span>|</span>
+            <a href="error.html">Errori</a>
+        </div>
+    </nav>
+    <header>
+        <h1>TITOLO</h1>
+    </header>
+
+    <article class="chat">
+        <div class="input-row">
+            <input type="text" id="domanda" name="domanda" placeholder="Inserisci testo qui">
+            <button id="chat-btn" onclick="toggleSuggerimenti()"></button>
+        </div>
+        <div id="suggerimenti" class="suggerimenti hidden">
+            <p>sezione domande consigliate</p>
+        </div>
+    </article>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid red;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin: 16px 12vw;
+}
+
+nav p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nav-link a {
+    font-size: 14px;
+}
+
+.nav-link span {
+    font-size: 14px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid orange;
+    padding: 30px;
+    margin: 20px 15vw;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid greenyellow;
+    padding: 20px;
+    margin: 20px 20vw;
+    gap: 12px;
+}
+
+.input-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-row input[type="text"] {
+    padding: 8px 14px;
+    border: 2px solid yellow;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+#chat-btn {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    border: 2px solid yellow;
+}
+
+.suggerimenti {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid purple;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.hidden {
+    display: none;
+}
+
+main {
+    margin: 48px 12vw;
+}
+
+section {
+    margin-bottom: 48px;
+}
+
+section h2 {
+    font-size: 22px;
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.linguaggi-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.linguaggi-lista li {
+    list-style: none;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 6px 14px;
+    font-size: 14px;
+}
+
+.team-griglia {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 24px;
+    text-align: center;
+}
+
+.team-gruppo h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ddd;
+}
+
+.team-gruppo ul {
+    list-style: none;
+    padding: 0;
+}
+
+.team-gruppo ul li {
+    font-size: 14px;
+    color: #333;
+    padding: 4px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
